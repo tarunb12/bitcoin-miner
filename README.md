@@ -2,7 +2,7 @@
 
 ## Running
 ```bash
-# k: int = # of 0's which the coin hashes should begin with
+# k: int = # of 0's in the hash prefix
 dotnet fsi Miner.fsx k
 ```
 
