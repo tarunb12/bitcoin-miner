@@ -32,7 +32,7 @@ let isBitcoin (coin: string) (k: int): bool =
     let prefix = coin.[0 .. k-1]
     zeros = prefix
 
-let generateCoinSuffix (n: int) (id: string) =
+let generateCoinSuffix (n: int) (id: string): string =
     let chars = "abcdefghijklmnopqrstuvwxyz0123456789"
     let random = Random ()
     let length = n - id.Length
