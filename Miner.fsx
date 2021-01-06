@@ -50,7 +50,7 @@ let generateBitcoin (k: int) (n: int) (id: string): string * string =
             generateCoin ()
     generateCoin ()
 
-let miner (i: int): Akka.Actor.IActorRef =
+let miner (i: int): IActorRef =
     spawn system
     <| sprintf "miner-%d" i
     <| fun (mailbox: Actor<MinerMessage>) ->
@@ -63,7 +63,7 @@ let miner (i: int): Akka.Actor.IActorRef =
             }
         loop ()
 
-let minerBoss (miners: int): Akka.Actor.IActorRef =
+let minerBoss (miners: int): IActorRef =
     spawn system "boss"
     <| fun (mailbox: Actor<BossMessage>) ->
         let rec loop (index: int) (main: IActorRef) =

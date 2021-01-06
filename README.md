@@ -26,4 +26,6 @@ tbelani;s7ngi5y6td74qr3q  00000058b7015f56b39c3c0a9903659f99cc59bbf3be4cfd3a68e2
 
 Real time / CPU time = 3.9
 
-See https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/install-fsharp
+See:
+- https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/install-fsharp
+- https://getakka.net/api/index.html
