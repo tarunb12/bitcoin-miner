@@ -36,7 +36,7 @@ let isBitcoin (coin: string) (k: int): bool =
 let generateCoinSuffix (n: int): string =
     let chars = "abcdefghijklmnopqrstuvwxyz0123456789"
     let random = Random ()
-    [| for _ in 1..n -> chars.[ random.Next chars.Length ] |]
+    [| for _ in 1 .. n -> chars.[ random.Next chars.Length ] |]
     |> String
 
 let generateBitcoin (k: int) (n: int) (id: string): string * string =

@@ -8,7 +8,7 @@ dotnet fsi Miner.fsx k
 
 ## Results
 ```bash
-# Mined Coin            || Hash (6 zeros)                                                #
+# Mined Coin            || SHA256 Hash (6 zeros)                                         #
 # ----------------------||-------------------------------------------------------------- #
 tbelani;yn1gpasmpykixn7v  0000003152771376ab69273f0df91d6ec1cfbe80d54535333e01e22d01fd8a75
 tbelani;ytrx74s962l7ijkk  000000644bfdb96556464298aea4714c1a7c05133c8f6e77892b6a285e6045a6
